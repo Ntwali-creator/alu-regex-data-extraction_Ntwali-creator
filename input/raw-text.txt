@@ -1,0 +1,50 @@
+RAW DATA EXTRACT - PRODUCTION LOG EMTRY
+TIMESTAMP: 2025-05-24T10:20:00+01:00
+SOURCE: external_api.customerdata.v2
+
+
+     CUSTOMER FEEDBACK SUBMISSION  
+
+Name: James ntwali
+Personal email: j.ntwali@alueducation.com
+work email: alumni.ntwali@alueducation.com
+SI Email: project.lead@si.alueducation.com
+
+Invalid ALU email: fake@alueducation.com
+malicious <script>alert('xss')</script>@alueducatin.com
+SQL injection: admin' OR '1'='1@test.com
+
+       TRANSACTIN HISTORY   
+
+Visa: 4532-1234-5678-9012
+Mastercard: 5555 6789 1234 5678
+Amex: 3782-822463-10005
+Invalid card: 1234-5678-9012-123
+Suspicious: 4532-1234-5678-9012' DROP TABLE users;
+
+     CONTACT INFO
+
+Rwanda: +250791595796
+USA: (415) 555-0199
+UK: +44 20 79460123
+local: 0799.123.456
+Invalid phone: 12345
+
+     WEB PRESENCE
+
+ALU Portal: https://student.alueducation.com/dashboard
+Google: http://google.com/search?q=ALU+Rwanda
+Malicious: http://evil.com/$(whoami)
+Internal: https://192.168.1.100/admin
+
+         HASHTAGS   
+
+ #ALUGrad2025 #KigaliTech #RwandaHacks
+
+         CURRENCY (extra)  
+
+price: $1,299.99
+budget: RWF 1,500,000
+
+THE END OF RECORDS
+

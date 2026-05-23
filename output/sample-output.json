@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "input_file": "../input/raw-text.txt",
+    "total_characters": 1107,
+    "security_scan": "completed"
+  },
+  "extracted_data": {
+    "emails": {
+      "alu_official": [
+        "j.ntwali@alueducation.com",
+        "alumni.ntwali@alueducation.com",
+        "fake@alueducation.com"
+      ],
+      "alumni": [],
+      "si": [
+        "project.lead@si.alueducation.com"
+      ],
+      "other": [],
+      "rejected": []
+    },
+    "urls": [
+      "https://student.alueducation.com/dashboard",
+      "http://google.com/search?q",
+      "http://evil.com/"
+    ],
+    "phones": [
+      "0799.123.456"
+    ],
+    "cards": [
+      {
+        "type": "VISA",
+        "masked": "****-****-****-9012",
+        "last4": "9012"
+      },
+      {
+        "type": "VISA",
+        "masked": "****-****-****-9012",
+        "last4": "9012"
+      },
+      {
+        "type": "MASTERCARD",
+        "masked": "****-****-****-5678",
+        "last4": "5678"
+      },
+      {
+        "type": "AMEX",
+        "masked": "****-****-****-0005",
+        "last4": "0005"
+      }
+    ]
+  }
+}
