@@ -110,16 +110,16 @@ if __name__ == "__main__":
     print(f"   Other: {emails["other"]}")
     if emails["rejected"]:
         print(f"   [REJECTED]: {emails["rejected"]}")
-    print(f"\n🔗 URLS ({len(results["extracted_data"]["urls"])} total):")
+    print(f"\n URLS ({len(results["extracted_data"]["urls"])} total):")
     for url in results["extracted_data"]["urls"]:
         print(f"   {url}")
-    print(f"\n📞 PHONE NUMBERS ({len(results["extracted_data"]["phones"])} total):")
+    print(f"\n PHONE NUMBERS ({len(results["extracted_data"]["phones"])} total):")
     for phone in results["extracted_data"]["phones"]:
         print(f"   {phone}")
-    print(f"\n💳 CREDIT CARDS ({len(results["extracted_data"]["cards"])} total):")
+    print(f"\n CREDIT CARDS ({len(results["extracted_data"]["cards"])} total):")
     for card in results["extracted_data"]["cards"]:
         print(f"   {card["type"]}: {card["masked"]}")
     print("\n" + "="*60)
-    print("✅ Output saved to: ../output/sample-output.json")
-    print("🔒 Security: Malicious patterns rejected | Card numbers masked")
+    print(" Output saved to: ../output/sample-output.json")
+    print(" Security: Malicious patterns rejected | Card numbers masked")
     print("="*60)
